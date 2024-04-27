@@ -1,0 +1,9 @@
+__pycache__/
+*.bit
+*.hwh
+!bitstream/*.bit
+!bitstream/*.hwh
+*.zip
+gallery/
+finn_examples/
+loaded.xclbin
