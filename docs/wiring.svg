@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 36 780 284" width="780" height="284" font-family="system-ui,-apple-system,sans-serif">
+  <style>
+    .box{fill:#ffffff;stroke:#334155;stroke-width:2}
+    .t{fill:#0f172a;font-size:15px;font-weight:600}
+    .s{fill:#64748b;font-size:12px}
+    .cap{fill:#64748b;font-size:11px}
+    .hdmi{stroke:#dc2626;stroke-width:3;fill:none;marker-end:url(#ah)}
+    .net{stroke:#2563eb;stroke-width:2;stroke-dasharray:6 4;fill:none}
+    .lh{fill:#dc2626;font-size:12px;font-weight:700}
+    .ln{fill:#2563eb;font-size:12px;font-weight:700}
+  </style>
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+  </defs>
+
+  <rect class="box" x="24"  y="62" width="180" height="92" rx="8"/>
+  <text class="t" x="114" y="92"  text-anchor="middle">Raspberry Pi</text>
+  <text class="s" x="114" y="114" text-anchor="middle">CSI camera (ov5647)</text>
+  <text class="s" x="114" y="133" text-anchor="middle">outputs 720p</text>
+
+  <rect class="box" x="300" y="62" width="180" height="92" rx="8"/>
+  <text class="t" x="390" y="92"  text-anchor="middle">PYNQ-Z2</text>
+  <text class="s" x="390" y="114" text-anchor="middle">finn_hdmi.bit</text>
+  <text class="s" x="390" y="133" text-anchor="middle">video + CNN in the PL</text>
+
+  <rect class="box" x="576" y="62" width="180" height="92" rx="8"/>
+  <text class="t" x="666" y="92"  text-anchor="middle">Monitor</text>
+  <text class="s" x="666" y="114" text-anchor="middle">1280 x 720</text>
+
+  <path class="hdmi" d="M206,108 L296,108"/>
+  <text class="lh" x="251" y="98"  text-anchor="middle">HDMI</text>
+  <text class="cap" x="251" y="128" text-anchor="middle">to HDMI-IN</text>
+
+  <path class="hdmi" d="M482,108 L572,108"/>
+  <text class="lh" x="527" y="98"  text-anchor="middle">HDMI</text>
+  <text class="cap" x="527" y="128" text-anchor="middle">from HDMI-OUT</text>
+
+  <rect class="box" x="300" y="248" width="180" height="52" rx="8"/>
+  <text class="t" x="390" y="279" text-anchor="middle">Laptop</text>
+
+  <path class="net" d="M114,156 L114,274 L296,274"/>
+  <path class="net" d="M390,156 L390,244"/>
+  <text class="ln" x="200" y="266">ssh</text>
+  <text class="ln" x="400" y="206">ssh</text>
+</svg>
