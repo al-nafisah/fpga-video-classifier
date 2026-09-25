@@ -33,7 +33,7 @@ If it sends nothing: `sudo ./set-hdmi-mode.sh --apply` and reboot.
 On the board:
 
 ```bash
-git clone git@github.com:AbdullahAlNafisah/fpga-video-classifier.git
+git clone https://github.com/AbdullahAlNafisah/fpga-video-classifier.git
 cd fpga-video-classifier
 sudo -s
 source /etc/profile.d/pynq_venv.sh
