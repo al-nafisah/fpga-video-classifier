@@ -3,6 +3,8 @@
 A camera feeds a PYNQ-Z2 over HDMI, a binarized CNN in the FPGA classifies every frame, and the
 labelled frame goes back out over HDMI. Video and the network share one bitstream.
 
+![rig](docs/rig.jpg)
+
 [![block diagram](docs/block-diagram.svg)](docs/block-diagram.svg)
 
 | | |
